@@ -51,7 +51,7 @@ function Destinations() {
           Popular Destinations
         </h2>
 
-        <p className="text-gray-500 max-w-xl mx-auto" style={{ marginLeft: "400px",marginTop: "2px" }}>
+        <p className="text-gray-500 max-w-xl mx-auto" style={{marginTop: "2px" }}>
           Discover the most beautiful places of Uttarakhand
           and experience the magic of nature.
         </p>

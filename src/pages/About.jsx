@@ -40,7 +40,7 @@ function About() {
             experience and unforgettable memories.
           </p>
 
-          <div className="grid grid-cols-3 gap-5 mb-9">
+          <div className="grid grid-cols-3 gap-5 mb-9" >
             <div>
               <h3 className="text-3xl font-bold text-[#243D35]">13</h3>
               <p className="text-gray-500 text-sm mt-2">Districts🏘️</p>

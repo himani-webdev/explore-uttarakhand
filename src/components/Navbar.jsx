@@ -13,6 +13,7 @@ function Navbar() {
         <Link
           to="/"
           className="text-xl sm:text-2xl font-bold text-[#243D35] tracking-wide"
+          style={{ marginLeft: "8px"}}
         >
           EXPLORE<span className="text-[#C49A6C]">.</span>
         </Link>

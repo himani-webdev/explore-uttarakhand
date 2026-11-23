@@ -27,7 +27,7 @@ function Contact() {
       {/* Contact Form Box */}
       <div className="w-full max-w-4xl mx-auto bg-white rounded-2xl shadow-lg p-5 sm:p-8 md:p-12 mt-6" style={{ marginTop: "20px",marginLeft:"10px" }}>
 
-        <form className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6"style={{ paddingTop: "10px",marginLeft:"10px" }}>
+        <form className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6"style={{ paddingTop: "10px",marginLeft:"5px",paddingLeft: "5px"  }}>
 
           {/* Name */}
           <div className="w-full">

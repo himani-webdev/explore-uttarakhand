@@ -10,11 +10,11 @@ function Footer() {
 
         {/* Logo */}
         <div className="px-2">
-          <h2 className="text-3xl font-bold tracking-wider mb-5 mt-2" style={{ marginLeft: "30px",marginTop: "10px"}}>
+          <h2 className="text-3xl font-bold tracking-wider mb-5 mt-2" style={{ marginLeft: "20px",marginTop: "10px"}}>
             EXPLORE<span className="text-[#C49A6C]" >.</span>
           </h2>
 
-          <p className="text-gray-300 leading-7 max-w-sm" style={{ marginLeft: "30px" }}>
+          <p className="text-gray-300 leading-7 max-w-sm" style={{ marginLeft: "20px" }}>
             Discover the hidden beauty of Uttarakhand.
             Explore mountains, rivers and peaceful destinations
             with unforgettable memories.
@@ -23,11 +23,11 @@ function Footer() {
 
         {/* Quick Links */}
         <div className="px-2">
-          <h3 className="text-xl font-semibold mb-6 mt-2" style={{ marginLeft: "30px" ,marginTop: "10px"}}>
+          <h3 className="text-xl font-semibold mb-6 mt-2" style={{ marginLeft: "20px" ,marginTop: "10px"}}>
             Quick Links
           </h3>
 
-          <div className="flex flex-col gap-y-2 text-gray-300" style={{ marginLeft: "40px" }}>
+          <div className="flex flex-col gap-y-2 text-gray-300" style={{ marginLeft: "20px" }}>
             <Link to="/" className="hover:text-[#C49A6C]">Home</Link>
             <Link to="/#destinations" className="hover:text-[#C49A6C]">Destinations</Link>
             <Link to="/about" className="hover:text-[#C49A6C]">About Us</Link>
@@ -37,7 +37,7 @@ function Footer() {
 
         {/* Contact Info */}
         <div className="px-2">
-          <h3 className="text-xl font-semibold mb-6 mt-2" style={{ marginLeft: "40px" ,marginTop: "10px"}}>
+          <h3 className="text-xl font-semibold mb-6 mt-2" style={{ marginLeft: "20px" ,marginTop: "10px"}}>
             Contact Us
           </h3>
 

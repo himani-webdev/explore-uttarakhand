@@ -2,7 +2,7 @@ function About() {
   return (
     <section id="about" className="mb-20 py-26 px-8 md:px-16 bg-white">
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center" style={{ marginLeft: "20px",marginTop: "20px" }}>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center" style={{ marginLeft: "6px",paddingTop: "20px" }}>
 
         <div className="relative">
           <img

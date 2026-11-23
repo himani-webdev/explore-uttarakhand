@@ -11,7 +11,7 @@ function Hero() {
       <div className="absolute inset-0 bg-black/40"></div>
 
       {/* Content */}
-      <div className="relative z-10 text-white w-full min-w-0 max-w-4xl" style={{ paddingLeft: "20px",paddingTop: "70px" }}>
+      <div className="relative z-10 text-white w-full min-w-0 max-w-4xl" style={{ paddingLeft: "10px",paddingTop: "70px" }}>
 
         <p className="uppercase tracking-[2px] sm:tracking-[5px] sm:ml-16 text-xs sm:text-sm mb-6 text-[#E5C9A5]"
        >

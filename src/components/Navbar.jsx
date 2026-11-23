@@ -5,7 +5,7 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full relative z-50 bg-white shadow-sm">
+    <nav className="w-full max-w-full relative z-50 bg-white shadow-sm">
 
       <div className="max-w-7xl mx-auto min-h-20 px-4 sm:px-6 md:px-10 lg:px-16 flex items-center justify-between">
 
@@ -60,7 +60,7 @@ function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="absolute top-full left-0 w-full md:hidden bg-white shadow-lg border-t border-gray-100">
+       <div className="absolute top-full left-0 right-0 w-full max-w-full md:hidden bg-white shadow-lg border-t border-gray-100">
 
           <div className="flex flex-col px-6 py-5 gap-5 text-gray-700 font-semibold">
 

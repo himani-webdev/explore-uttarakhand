@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <section
-      className="relative min-h-150 flex items-center bg-cover bg-center"
+      className="relative w-full max-w-full min-h-137.5 min-h-150flex items-center bg-cover bg-center overflow-hidden px-4 sm:px-8 md:px-16"
       style={{
         backgroundImage:
           "url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=2000&q=90')"
@@ -11,25 +11,25 @@ function Hero() {
       <div className="absolute inset-0 bg-black/40"></div>
 
       {/* Content */}
-      <div
-            className="relative z-10 text-white max-w-4xl"
-            style={{ marginLeft: "20px" }}
-        >
-      <p className="uppercase tracking-[5px] ml-16 text-sm mb-6 text-[#E5C9A5]">
-            Discover The Himalayas
+      <div className="relative z-10 text-white w-full min-w-0 max-w-4xl" style={{ paddingLeft: "20px",paddingTop: "70px" }}>
+
+        <p className="uppercase tracking-[2px] sm:tracking-[5px] sm:ml-16 text-xs sm:text-sm mb-6 text-[#E5C9A5]"
+       >
+          Discover The Himalayas
         </p>
-        <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
+
+        <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold leading-tight mb-6 wrap-break-words">
           Explore The <br />
           Beauty Of <br />
           Uttarakhand.
         </h1>
 
-        <p className="text-lg text-gray-200 mb-9 max-w-xl">
+        <p className="text-base sm:text-lg text-gray-200 mb-9 max-w-xl">
           Discover breathtaking mountains, peaceful valleys
           and unforgettable journeys in the heart of nature.
         </p>
 
-        <button className="bg-[#C49A6C] px-9 py-8 rounded-full font-semibold hover:bg-white hover:text-[#243D35] transition duration-300">
+        <button className="bg-[#C49A6C] px-7 py-4 sm:px-9 sm:py-6 rounded-full font-semibold hover:bg-white hover:text-[#243D35] transition duration-300">
           Discover Destinations →
         </button>
 

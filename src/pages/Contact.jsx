@@ -17,7 +17,7 @@ function Contact() {
           Let's Plan Your Journey
         </h2>
 
-        <p className="text-gray-500 max-w-xl mx-auto text-sm sm:text-base px-2" style={{ marginTop: "5px",marginLeft:"20px" }}>
+        <p className="text-gray-500 max-w-xl mx-auto text-sm sm:text-base px-2" style={{ marginTop: "5px" }}>
           Have questions or planning your next trip?
           We'd love to hear from you.
         </p>
@@ -89,7 +89,7 @@ function Contact() {
           <div className="md:col-span-2">
             <button
               type="button"
-              className="w-full sm:w-auto bg-[#243D35] text-white px-8 sm:px-10 py-8 rounded-full font-semibold text-base hover:bg-[#C49A6C] transition duration-300"
+              className="w-full sm:w-auto bg-[#243D35] text-white px-8 sm:px-10 py-4 rounded-full font-semibold text-base hover:bg-[#C49A6C] transition duration-300"
             >
               Send Message →
             </button>

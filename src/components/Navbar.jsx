@@ -85,7 +85,7 @@ function Navbar() {
               onClick={() => setMenuOpen(false)}
               to="/destinations"
               className="bg-[#243D35] text-white text-center px-6 py-4 rounded-full hover:bg-[#C49A6C] hover:text-[#243D35] transition" 
-              style={{height:"32px", paddingTop:"5px",marginBottom:"6px"}}
+              style={{height:"29px", paddingTop:"4px",marginBottom:"4px"}}
             >
               Explore Now →
             </Link>

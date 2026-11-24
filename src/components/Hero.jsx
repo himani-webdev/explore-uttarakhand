@@ -30,7 +30,7 @@ function Hero() {
         </p>
 
         <button className="bg-[#C49A6C] px-7 py-4 sm:px-9 sm:py-6 rounded-full font-semibold hover:bg-white hover:text-[#243D35] transition duration-300"
-        style={{height:"35px",width:"50%"}}>
+        style={{height:"28px",width:"46%"}}>
           Discover Destinations →
         </button>
 

@@ -58,7 +58,7 @@ function About() {
           </div>
 
           <button className="bg-[#243D35] text-white px-8 py-4 rounded-full hover:bg-[#C49A6C] transition duration-300"
-          style={{height:"30px",width:"35%", marginBottom:"10px",marginTop:"18px"}}>
+          style={{height:"30px",width:"36%", marginBottom:"10px",marginTop:"18px",marginLeft:"6px"}}>
             Discover More →
           </button>
         </div>

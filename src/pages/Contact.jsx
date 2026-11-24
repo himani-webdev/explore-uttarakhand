@@ -25,7 +25,7 @@ function Contact() {
       </div>
 
       {/* Contact Form Box */}
-      <div className="w-full max-w-4xl mx-auto bg-white rounded-2xl shadow-lg p-5 sm:p-8 md:p-12 mt-6" style={{ marginTop: "20px",marginLeft:"10px" }}>
+      <div className="w-full max-w-4xl mx-auto bg-white rounded-2xl shadow-lg p-5 sm:p-8 md:p-12 mt-6" style={{ marginTop: "20px",marginLeft:"5px",paddingRight:"15px" }}>
 
         <form className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6"style={{ paddingTop: "10px",marginLeft:"5px",paddingLeft: "5px"  }}>
 
@@ -90,6 +90,7 @@ function Contact() {
             <button
               type="button"
               className="w-full sm:w-auto bg-[#243D35] text-white px-8 sm:px-10 py-4 rounded-full font-semibold text-base hover:bg-[#C49A6C] transition duration-300"
+              style={{marginBottom:"9px",height:"30px"}}
             >
               Send Message →
             </button>

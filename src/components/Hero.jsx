@@ -30,7 +30,7 @@ function Hero() {
         </p>
 
         <button className="inline-flex items-center gap-2 whitespace-nowrap bg-[#C49A6C] px-6 sm:px-9 py-4 sm:py-6 rounded-full font-semibold hover:bg-white hover:text-[#243D35] transition duration-300"
-        style={{paddingLeft:"5px",paddingRight:"5px"}}>
+        >
           <span>Discover Destinations</span>
           <span>→</span>
        </button>

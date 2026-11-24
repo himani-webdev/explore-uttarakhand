@@ -66,7 +66,7 @@ function Destinations() {
             key={index}
             className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all
              duration-500 hover:-translate-y-2 group border border-gray-100 "
-            style={{ marginLeft: "4px",marginTop: "15px" }}
+            style={{ marginLeft: "2px",marginTop: "15px" }}
           >
 
             <div className="h-64 overflow-hidden" >

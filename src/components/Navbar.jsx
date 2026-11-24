@@ -50,7 +50,7 @@ function Navbar() {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
-          className="md:hidden text-3xl text-[#243D35] focus:outline-none"
+          className="md:hidden text-3xl text-[#243D35] focus:outline-none" style={{ paddingRight:"12px"}}
           aria-label="Toggle navigation menu"
           aria-expanded={menuOpen}
         >

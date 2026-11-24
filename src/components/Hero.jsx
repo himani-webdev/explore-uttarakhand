@@ -29,10 +29,11 @@ function Hero() {
           and unforgettable journeys in the heart of nature.
         </p>
 
-        <button className="bg-[#C49A6C] px-7 py-4 sm:px-9 sm:py-6 rounded-full font-semibold hover:bg-white hover:text-[#243D35] transition duration-300"
-        style={{height:"28px",width:"50%"}}>
-          Discover Destinations →
-        </button>
+        <button className="inline-flex items-center gap-2 whitespace-nowrap bg-[#C49A6C] px-6 sm:px-9 py-4 sm:py-6 rounded-full font-semibold hover:bg-white hover:text-[#243D35] transition duration-300"
+        style={{ width:"25%",paddingLeft:"10px"}}>
+          <span>Discover Destinations</span>
+          <span>→</span>
+       </button>
 
       </div>
     </section>

@@ -61,30 +61,31 @@ function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-       <div className="absolute top-full left-0 right-0 w-full max-w-full md:hidden bg-white shadow-lg border-t border-gray-100">
+       <div className="absolute top-full left-0 right-0 w-full max-w-full md:hidden bg-white shadow-lg border-t border-gray-100" >
 
-          <div className="flex flex-col px-6 py-5 gap-5 text-gray-700 font-semibold">
+          <div className="flex flex-col px-6 py-4 gap-5 text-gray-700 font-semibold" >
 
-            <Link onClick={() => setMenuOpen(false)} to="/" className="hover:text-[#C49A6C]">
+            <Link onClick={() => setMenuOpen(false)} to="/" className="hover:text-[#C49A6C]" style={{paddingLeft:"10px"}}>
               Home
             </Link>
 
-            <Link onClick={() => setMenuOpen(false)} to="/destinations" className="hover:text-[#C49A6C]">
+            <Link onClick={() => setMenuOpen(false)} to="/destinations" className="hover:text-[#C49A6C]"style={{paddingLeft:"10px"}}>
               Destinations
             </Link>
 
-            <Link onClick={() => setMenuOpen(false)} to="/about" className="hover:text-[#C49A6C]">
+            <Link onClick={() => setMenuOpen(false)} to="/about" className="hover:text-[#C49A6C]"style={{paddingLeft:"10px"}}>
               About
             </Link>
 
-            <Link onClick={() => setMenuOpen(false)} to="/contact" className="hover:text-[#C49A6C]">
+            <Link onClick={() => setMenuOpen(false)} to="/contact" className="hover:text-[#C49A6C]"style={{paddingLeft:"10px"}}>
               Contact
             </Link>
 
             <Link
               onClick={() => setMenuOpen(false)}
               to="/destinations"
-              className="bg-[#243D35] text-white text-center px-6 py-3 rounded-full hover:bg-[#C49A6C] hover:text-[#243D35] transition"
+              className="bg-[#243D35] text-white text-center px-6 py-4 rounded-full hover:bg-[#C49A6C] hover:text-[#243D35] transition" 
+              style={{height:"32px", paddingTop:"5px",marginBottom:"6px"}}
             >
               Explore Now →
             </Link>

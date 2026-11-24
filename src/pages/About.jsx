@@ -2,7 +2,7 @@ function About() {
   return (
     <section id="about" className="mb-20 py-26 px-8 md:px-16 bg-white">
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center" style={{ marginLeft: "6px",paddingTop: "20px" }}>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center" style={{ paddingLeft: "3px",paddingTop: "20px" }}>
 
         <div className="relative">
           <img
@@ -11,8 +11,8 @@ function About() {
             className="w-full h-125 object-cover rounded-2xl shadow-xl"
           />
 
-          <div className="absolute bottom-6 right-6 bg-white p-6 rounded-2xl shadow-lg">
-            <h3 className="text-3xl font-bold text-[#243D35]">100%</h3>
+          <div className="absolute bottom-6 right-6 bg-white p-6 rounded-2xl shadow-lg" style={{height:"60px",width:"99px",paddingLeft:"3px"}}>
+            <h3 className="text-3xl font-bold text-[#243D35]" >100%</h3>
             <p className="text-gray-500 text-sm">Natural Beauty</p>
           </div>
         </div>
@@ -57,7 +57,8 @@ function About() {
             </div>
           </div>
 
-          <button className="bg-[#243D35] text-white px-8 py-4 rounded-full hover:bg-[#C49A6C] transition duration-300">
+          <button className="bg-[#243D35] text-white px-8 py-4 rounded-full hover:bg-[#C49A6C] transition duration-300"
+          style={{height:"30px",width:"35%", marginBottom:"10px",marginTop:"18px"}}>
             Discover More →
           </button>
         </div>
